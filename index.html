@@ -1,0 +1,34 @@
+
+
+<!DOCTYPE html>
+<html>
+	<head>
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
+		<title>Stopwatch</title>
+	</head>
+	<body>
+	
+	<center>
+	
+	<h1 id="min">00</h3> <h1>:</h1>
+	<h1 id="sec">00</h3><h1>:</h1>
+		<h1 id="ms">00</h3>
+		
+		<br><br>
+		
+		<button id="start" onclick="startClock()">Start</button>
+		<button onclick="pauseClock()" id="pause">Pause</button>
+		<button id="resume" onclick="resumeClock()">Resume</button>
+		<button id="reset" onclick="resetClock()">Reset</button>
+		<br><br>
+		<button id="lap" onclick="getLap()">Lap</button>
+		  
+		</center>
+		<audio id="audio" loop>
+		<source src="https://dl.dropbox.com/s/crkvaykch8tnyuc/song.mp3?raw=1" type="">
+	</audio>
+		
+		
+	</body>
+</html>
